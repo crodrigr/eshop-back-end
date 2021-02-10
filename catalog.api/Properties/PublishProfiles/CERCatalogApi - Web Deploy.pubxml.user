@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJx5m4K4jU0aTChEUsfQtIAAAAAACAAAAAAAQZgAAAAEAACAAAABejyIIn1ZIyX5lIWrSkhuYZX3Q827bJt6fMhpaMhHxogAAAAAOgAAAAAIAACAAAACa8N5joXdWwlFR1avrjvZNDk0tM733oXilOSlvou4sm4AAAADfHERy8F5bByR3UgNx8eHFihWO/rivmatvWB7hgwyHMFOYYyBvWmiiC4FNaNiWWklNp3sXMCh6ag8vQ7TpyxlGvW3b/+qrLgqMm+NV+XzUBJAYmLRbVt5owUvab+nV3dWotHWtiimhWBfd/nc2QASfWgsb/uu6xcd8Uw48Mu9iSEAAAABGU+R0GT8Gl3/QbAxxPCfla+vnK3QpIb1G20ea1OeeAlWMmBWOPlENbhnu5W/fJY5Ntrh0wg0plXxmhKEaXBOV</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="catalog.api.ApplicationDbContext">
+      <Value>Data Source=tcp:catalogapidbserver.database.windows.net,1433%3bInitial Catalog=catalog.api_db%3bUser Id=usercatalog%40catalogapidbserver%3bPassword=JuanC21/</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\cerm-\Documents\AspNet\dot-net-core-test-main\dot-net-core-test-main\catalog.api\obj\Release\netcoreapp3.1\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\cerm-\Documents\AspNet\dot-net-core-test-main\dot-net-core-test-main\catalog.api\obj\Release\netcoreapp3.1\PubTmp\EFSQLScripts\catalog.api.ApplicationDbContext.sql" />
+</sitemanifest>
